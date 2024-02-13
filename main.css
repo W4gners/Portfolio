@@ -1,0 +1,11 @@
+header{
+    font-size: large;
+    color: black;
+    font-weight: 500;
+}
+
+nav li{
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
