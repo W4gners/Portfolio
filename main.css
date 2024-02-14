@@ -1,21 +1,78 @@
-.* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+}
+
 header {
-    font-size: large;
-    color: black;
+    
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+}
+
+header h1 {
+    font-weight: 300;
+}
+
+header nav li {
+    font-size: 20px;
+    display: inline;
+    margin-left: 24px;
+}
+
+header nav li a {
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+header nav li a:hover {
+    color: rgb(8, 191, 237);
     font-weight: 500;
 }
 
-header li a {
-    font-size: 20px;
-    text-decoration: none;
-    color: ;
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 30px 80px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+#intro {
+    display: flex;
+    margin: 30px 80px;
+    align-items: start;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 200;
+}
+
+#intro p {
+    margin-left: 40px;
 }
 
 #intro img {
-    width: 30%;
+    width: 50%;
 }
+
